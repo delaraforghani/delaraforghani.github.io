@@ -1,0 +1,11 @@
+title: Delara Forghani
+logo: /assets/img/photo.jpg
+description: 
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+nav:
+  - name: Home
+    link: /
+  - name: Publications
+    link: /publications

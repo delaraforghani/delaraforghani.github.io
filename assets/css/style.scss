@@ -1,0 +1,29 @@
+---
+---
+@import "jekyll-theme-minimal";
+
+.contact-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: fit-content;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-size: 0.95rem;
+  margin-bottom: 25px; /* space before paragraphs */
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.view a[href*="github.com"] {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
