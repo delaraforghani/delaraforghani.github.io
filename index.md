@@ -15,7 +15,7 @@ layout: default
    <a href="https://www.linkedin.com/in/delaraforghani/" style="margin-right:10px;" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="25" alt="LinkedIn">
     </a>
-    <a href="https://github.com/delara-forghani" target="_blank">
+    <a href="https://github.com/delaraforghani" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="25" alt="GitHub" >
     </a>
 
