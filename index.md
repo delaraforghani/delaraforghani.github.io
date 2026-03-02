@@ -11,7 +11,7 @@ layout: default
 <div class="contact-card">
   📧 <b>Email:</b> Delara (dot) forghani (at) uwaterloo (dot) ca<br>
   📄 <a href="./CV_LastUpdate_Jan2026.pdf"><b>CV</b></a><br>
-  🏢 <b>Office:</b> DC 3540 (HCI Lab)<br>
+  <!-- 🏢 <b>Office:</b> DC 3540 (HCI Lab)<br> -->
    <a href="https://www.linkedin.com/in/delaraforghani/" style="margin-right:10px;" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="25" alt="LinkedIn">
     </a>
