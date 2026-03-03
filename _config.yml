@@ -16,7 +16,9 @@ author: Delara Forghani
 email: del.forghani@gmail.com
 description: 
 show_excerpts: true # set to true to show excerpts on the homepage
-
+remote_theme: samarsault/plainwhite-jekyll
+plugins:
+  - jekyll-remote-theme
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
@@ -61,9 +63,5 @@ plainwhite:
 #header_pages:
 # - about.md
 
-# Build settings
-theme: plainwhite
-
-plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+# # Build settings
+# theme: plainwhite
