@@ -1,0 +1,13 @@
+.profile-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .profile-text {
+    flex: 2;
+  }
+  
+  .profile-image {
+    flex: 1;
+  }

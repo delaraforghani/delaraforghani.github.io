@@ -7,6 +7,27 @@ layout: default
 <!--- There should be whitespace between paragraphs. -->
 
 <!--- There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
+<div class="profile-container">
+
+<div class="profile-text">
+
+<p><b>👋 Hi, I'm Delara</b></p> 
+<p>
+I am a PhD student in the Human-Computer Interaction Lab at the Cheriton School of Computer Science, University of Waterloo. My research area is desigining new interaction techniques and input methods, especially in Mixed Reality environments. Currently, I explore how to create interactive tutorials for users in augmented reality. I am part of the <b>Exii Group</b> supervised by <a href="https://uwaterloo.ca/computer-science/about/people/dvogel">Prof. Daniel Vogel</a>. 
+</p>
+
+<p>
+I completed my Master's in Electrical and Computer Engineering at the University of Waterloo, focusing on Human-robot Interaction and Social Robotics under the supervision of 
+          <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/kdautenh">Prof. Kerstin Dautenhahn</a> and <a href="https://uwaterloo.ca/systems-design-engineering/profile/cnehaniv">Prof. Chrystopher Nehaniv</a> in the <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/">Social and Intelligent Robotics Research Laboratory (SIRRL)</a>. My research involved developing a humanoid social robot (Pepper by Aldebaran Robotics) for presentation rehearsals, providing user with feedback on the speech style and the vocal delivery of the presentation.  
+</p>
+
+</div>
+
+<div class="profile-image">
+<img src="/assets/profile.jpg" width="250">
+</div>
+
+</div>
 
 <div class="contact-card">
   📧 <b>Email:</b> Delara (dot) forghani (at) uwaterloo (dot) ca<br>
@@ -22,15 +43,6 @@ layout: default
 </div>
 
  
-<p><b>👋 Hi, I'm Delara</b></p> 
-<p>
-I am a PhD student in the Human-Computer Interaction Lab at the Cheriton School of Computer Science, University of Waterloo. My research area is desigining new interaction techniques and input methods, especially in Mixed Reality environments. Currently, I explore how to create interactive tutorials for users in augmented reality. I am part of the <b>Exii Group</b> supervised by <a href="https://uwaterloo.ca/computer-science/about/people/dvogel">Prof. Daniel Vogel</a>. 
-</p>
-
-<p>
-I completed my Master's in Electrical and Computer Engineering at the University of Waterloo, focusing on Human-robot Interaction and Social Robotics under the supervision of 
-          <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/kdautenh">Prof. Kerstin Dautenhahn</a> and <a href="https://uwaterloo.ca/systems-design-engineering/profile/cnehaniv">Prof. Chrystopher Nehaniv</a> in the <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/">Social and Intelligent Robotics Research Laboratory (SIRRL)</a>. My research involved developing a humanoid social robot (Pepper by Aldebaran Robotics) for presentation rehearsals, providing user with feedback on the speech style and the vocal delivery of the presentation.  
-</p>
 
 [<b>Publications</b>](/publications)<br>
 <!-- [LinkedIn](https://www.linkedin.com/in/delaraforghani/)  -->
