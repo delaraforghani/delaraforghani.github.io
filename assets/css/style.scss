@@ -27,3 +27,53 @@ footer {
   display: none;
 }
 
+/* Hide the theme's site title link (e.g., "Delara Forghani" header) */
+.site-title {
+  display: none;
+}
+
+/* Profile layout: text left, photo/contact right */
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.profile-text {
+  flex: 2;
+}
+
+.profile-sidebar {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+}
+
+.profile-contact {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+/* Stack on very small screens only */
+@media (max-width: 600px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-sidebar {
+    text-align: left;
+  }
+
+  .profile-image img {
+    margin-left: 0;
+  }
+}
+
