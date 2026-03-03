@@ -22,14 +22,11 @@ I completed my Master's in Electrical and Computer Engineering at the University
 </p>
 
 </div>
-
-<div class="profile-image">
-<img src="./assets/img/photo.jpg" width="250">
-</div>
-
-</div>
-
-<div class="contact-card">
+<div class="profile-sidebar">
+  <div class="profile-image">
+    <img src="./assets/img/photo.jpg" >
+  </div>
+  <div class="profile-contact">
   📧 <b>Email:</b> Delara (dot) forghani (at) uwaterloo (dot) ca<br>
   📄 <a href="./CV_LastUpdate_Jan2026.pdf"><b>CV</b></a><br>
   <!-- 🏢 <b>Office:</b> DC 3540 (HCI Lab)<br> -->
@@ -41,6 +38,11 @@ I completed my Master's in Electrical and Computer Engineering at the University
     </a>
 
 </div>
+
+
+</div>
+
+
 
  
 
