@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<!--- Text can be **bold**, _italic_, or ~~strikethrough~~. --> 
-
-<!--- There should be whitespace between paragraphs. -->
-
-<!--- There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
 <div class="profile-container">
 
 <div class="profile-text">
@@ -22,6 +17,7 @@ I completed my Master's in Electrical and Computer Engineering at the University
 </p>
 
 </div>
+
 <div class="profile-sidebar">
   <div class="profile-image">
     <img src="./assets/img/photo.jpg" >
