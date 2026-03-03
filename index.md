@@ -46,7 +46,7 @@ I completed my Master's in Electrical and Computer Engineering at the University
 
  
 
-[<b>Publications</b>](/publications)<br>
+<!-- [<b>Publications</b>](/publications)<br> -->
 <!-- [LinkedIn](https://www.linkedin.com/in/delaraforghani/)  -->
 
 

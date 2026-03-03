@@ -27,6 +27,18 @@ footer {
   display: none;
 }
 
+header{
+  display: none;
+}
+
+section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px 0;
+}
+
 /* Hide the theme's site title link (e.g., "Delara Forghani" header) */
 .site-title {
   display: none;
@@ -75,5 +87,7 @@ footer {
   .profile-image img {
     margin-left: 0;
   }
+
+
 }
 
