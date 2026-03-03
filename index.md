@@ -26,7 +26,7 @@ I completed my Master's in Electrical and Computer Engineering at the University
   <div class="profile-image">
     <img src="./assets/img/photo.jpg" >
   </div>
-  <div class="profile-contact">
+  <div class="profile-contact contact-card">
   📧 <b>Email:</b> Delara (dot) forghani (at) uwaterloo (dot) ca<br>
   📄 <a href="./CV_LastUpdate_Jan2026.pdf"><b>CV</b></a><br>
   <!-- 🏢 <b>Office:</b> DC 3540 (HCI Lab)<br> -->
@@ -36,12 +36,79 @@ I completed my Master's in Electrical and Computer Engineering at the University
     <a href="https://github.com/delaraforghani" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="25" alt="GitHub" >
     </a>
-
+  </div>
 </div>
 
+<h1>Publications</h1>
 
+<div class="pub-year">
+  <h2>2025</h2>
+  <div class="pub-item">
+    <p class="pub-authors">
+      <b>Delara Forghani</b>, Moojan Ghafurian, Samira Rasouli, Chrystopher L. Nehaniv, and Kerstin Dautenhahn
+    </p>
+    <p class="pub-title">
+      “System Development and Evaluation of a Social Robot as a Public Speaking Coach.”
+    </p>
+    <p class="pub-venue">
+      <i>International Journal of Social Robotics</i>, 2025.
+    </p>
+    <p class="pub-links">
+      <a href="./publications/IJSR-2025.pdf" target="_blank">📄 PDF</a> ·
+      <a href="https://doi.org/10.1007/s12369-025-01320-8" target="_blank">🔗 DOI</a>
+    </p>
+  </div>
+
+  <div class="pub-item">
+    <p class="pub-authors">
+      Michele Boldo, <b>Delara Forghani</b>, Nicola Bombieri, Kerstin Dautenhahn, Chrystopher L. Nehaniv
+    </p>
+    <p class="pub-title">
+      “A Deep Learning-Based Emotion Recognition Pipeline for Public Speaking Anxiety Detection in Social Robotics.”
+    </p>
+    <p class="pub-venue">
+      <i>IEEE RO-MAN 2025</i>.
+    </p>
+  </div>
 </div>
 
+<div class="pub-year">
+  <h2>2024</h2>
+  <div class="pub-item">
+    <p class="pub-authors">
+      <b>Delara Forghani</b>, Moojan Ghafurian, Samira Rasouli, Chrystopher L. Nehaniv, and Kerstin Dautenhahn
+    </p>
+    <p class="pub-title">
+      “Evaluating people's perceptions of an agent as a public speaking coach.”
+    </p>
+    <p class="pub-venue">
+      <i>Paladyn: Journal of Behavioral Robotics</i>, 15(1), 2024.
+    </p>
+    <p class="pub-links">
+      <a href="./publications/Paladyn-2024.pdf" target="_blank">📄 PDF</a> ·
+      <a href="https://doi.org/10.1515/pjbr-2024-0004" target="_blank">🔗 DOI</a>
+    </p>
+  </div>
+</div>
+
+<div class="pub-year">
+  <h2>2023</h2>
+  <div class="pub-item">
+    <p class="pub-authors">
+      <b>Delara Forghani</b>, Moojan Ghafurian, Samira Rasouli, Chrystopher L. Nehaniv, and Kerstin Dautenhahn
+    </p>
+    <p class="pub-title">
+      “What Do People Think of Social Robots and Voice Agents as Public Speaking Coaches?”
+    </p>
+    <p class="pub-venue">
+      <i>IEEE RO-MAN 2023</i>.
+    </p>
+    <p class="pub-links">
+      <a href="./publications/ROMAN-2023.pdf" target="_blank">📄 PDF</a> ·
+      <a href="https://doi.org/10.1109/RO-MAN57019.2023.10309583" target="_blank">🔗 DOI</a>
+    </p>
+  </div>
+</div>
 
 
  
