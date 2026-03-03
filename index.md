@@ -24,7 +24,7 @@ I completed my Master's in Electrical and Computer Engineering at the University
 </div>
 
 <div class="profile-image">
-<img src="/assets/profile.jpg" width="250">
+<img src="/assets/img/profile.jpg" width="250">
 </div>
 
 </div>
