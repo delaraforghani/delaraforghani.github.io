@@ -38,6 +38,7 @@ I completed my Master's in Electrical and Computer Engineering at the University
     </a>
   </div>
 </div>
+</div>
 
 <h1>Publications</h1>
 
