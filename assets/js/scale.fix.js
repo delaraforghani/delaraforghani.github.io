@@ -22,9 +22,6 @@
         var wrapper = document.querySelector(".wrapper");
         if (!wrapper) return;
 
-        var header = wrapper.querySelector("header");
-        if (!header) return;
-
         var rightDiv = document.createElement("div");
         rightDiv.className = "site-header-right";
 
@@ -35,7 +32,7 @@
         cvLink.className = "cv-link";
 
         rightDiv.appendChild(cvLink);
-        header.appendChild(rightDiv);
+        wrapper.appendChild(rightDiv);
     });
 
     if (navigator.userAgent.match(/iPhone/i)) {
