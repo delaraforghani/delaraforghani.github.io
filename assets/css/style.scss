@@ -77,6 +77,24 @@ section{
   font-size: 0.95rem;
 }
 
+.site-header-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cv-link {
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.cv-link:hover {
+  background: #f3f4f6;
+}
+
 /* Stack on very small screens only */
 @media (max-width: 600px) {
   .profile-container {

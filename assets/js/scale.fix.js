@@ -17,6 +17,26 @@
             initialize();
         };
 
+    // Add a CV header/link inside the wrapper's header after the DOM is ready
+    document.addEventListener("DOMContentLoaded", function() {
+        var wrapper = document.querySelector(".wrapper");
+        if (!wrapper) return;
+
+        var header = wrapper.querySelector("header");
+        if (!header) return;
+
+        var rightDiv = document.createElement("div");
+        rightDiv.className = "site-header-right";
+
+        var cvLink = document.createElement("a");
+        cvLink.href = "/CV_LastUpdate_Jan2026.pdf";
+        cvLink.target = "_blank";
+        cvLink.textContent = "CV";
+        cvLink.className = "cv-link";
+
+        rightDiv.appendChild(cvLink);
+        header.appendChild(rightDiv);
+    });
 
     if (navigator.userAgent.match(/iPhone/i)) {
         initialize();
