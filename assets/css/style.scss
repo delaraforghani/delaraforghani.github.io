@@ -49,6 +49,8 @@ section{
 
 /* Profile layout: text left, photo/contact right */
 .profile-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -65,7 +67,7 @@ section{
 }
 
 .profile-image img {
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
   display: block;
