@@ -147,6 +147,44 @@ section{
     text-decoration: underline;
   }
 
+  /* Adjustments for better mobile responsiveness */
+  .profile-container {
+    gap: 20px; /* Reduce gap for smaller screens */
+  }
 
+  .profile-text, .profile-sidebar {
+    flex: unset; /* Remove flex sizing for better stacking */
+    width: 100%; /* Ensure full width */
+  }
+
+  .profile-image img {
+    max-width: 100%; /* Ensure image scales within container */
+    height: auto;
+    margin-left: 0; /* Center image */
+  }
+
+  .contact-card {
+    width: 100%; /* Make contact card responsive */
+    padding: 10px 15px; /* Adjust padding */
+  }
+
+  .cv-link {
+    display: block; /* Stack CV link */
+    text-align: center; /* Center align */
+    margin: 10px auto; /* Add spacing */
+  }
+
+  .pub-item {
+    padding: 10px 12px; /* Adjust padding for smaller screens */
+  }
+
+  .pub-year {
+    margin-top: 1.5rem; /* Adjust spacing */
+  }
+
+  .pub-links a {
+    display: block; /* Stack publication links */
+    margin-bottom: 0.5rem; /* Add spacing between links */
+  }
 }
 
