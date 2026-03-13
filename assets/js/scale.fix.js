@@ -34,9 +34,9 @@
         rightDiv.appendChild(cvLink);
     
         // Insert rightDiv before the first child of the wrapper
-        var firstChild = wrapper.firstElementChild;
-        if (firstChild) {
-            wrapper.insertBefore(rightDiv, firstChild);
+        var firstChild = wrapper.querySelector("header");
+        if (header) {
+            wrapper.insertBefore(rightDiv, header.nextSibling);
         } else {
             wrapper.appendChild(rightDiv); // Fallback if no children exist
         }
