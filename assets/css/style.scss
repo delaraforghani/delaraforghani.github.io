@@ -78,8 +78,8 @@ section{
 }
 
 .site-header-right {
-  position: absolute;
-  right: 0;
+  position: relative;
+  float: right;
   top: 0;
 }
 

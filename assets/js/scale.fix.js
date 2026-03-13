@@ -21,18 +21,25 @@
     document.addEventListener("DOMContentLoaded", function() {
         var wrapper = document.querySelector(".wrapper");
         if (!wrapper) return;
-
+    
         var rightDiv = document.createElement("div");
         rightDiv.className = "site-header-right";
-
+    
         var cvLink = document.createElement("a");
         cvLink.href = "/CV_LastUpdate_Jan2026.pdf";
         cvLink.target = "_blank";
         cvLink.textContent = "CV";
         cvLink.className = "cv-link";
-
+    
         rightDiv.appendChild(cvLink);
-        wrapper.appendChild(rightDiv);
+    
+        // Insert rightDiv before the first child of the wrapper
+        var firstChild = wrapper.firstElementChild;
+        if (firstChild) {
+            wrapper.insertBefore(rightDiv, firstChild);
+        } else {
+            wrapper.appendChild(rightDiv); // Fallback if no children exist
+        }
     });
 
     if (navigator.userAgent.match(/iPhone/i)) {
