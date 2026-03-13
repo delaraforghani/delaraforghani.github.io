@@ -22,23 +22,30 @@
         var wrapper = document.querySelector(".wrapper");
         if (!wrapper) return;
     
-        var rightDiv = document.createElement("div");
-        rightDiv.className = "site-header-right";
+        var topBar = document.createElement("div");
+        topBar.className = "top-bar";
     
-        var cvLink = document.createElement("a");
-        cvLink.href = "/CV_LastUpdate_Jan2026.pdf";
-        cvLink.target = "_blank";
-        cvLink.textContent = "CV";
-        cvLink.className = "cv-link";
-    
-        rightDiv.appendChild(cvLink);
-    
-        // Insert rightDiv before the first child of the wrapper
         var header = wrapper.querySelector("header");
         if (header) {
-            wrapper.insertBefore(rightDiv, header.nextSibling);
-        } else {
-            wrapper.appendChild(rightDiv); // Fallback if no children exist
+            // Move the header into the topBar
+            topBar.appendChild(header);
+    
+            var rightDiv = document.createElement("div");
+            rightDiv.className = "site-header-right";
+    
+            var cvLink = document.createElement("a");
+            cvLink.href = "/CV_LastUpdate_Jan2026.pdf";
+            cvLink.target = "_blank";
+            cvLink.textContent = "CV";
+            cvLink.className = "cv-link";
+    
+            rightDiv.appendChild(cvLink);
+    
+            // Add the rightDiv to the topBar
+            topBar.appendChild(rightDiv);
+    
+            // Insert the topBar into the wrapper
+            wrapper.insertBefore(topBar, wrapper.firstChild);
         }
     });
 
